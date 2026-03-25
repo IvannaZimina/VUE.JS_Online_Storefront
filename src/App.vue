@@ -4,23 +4,12 @@
   featured cards, and job listings preview.
 -->
 <script setup>
-// Import page layout components
 import Navbar from '@/components/Navbar.vue'
-import Hero from '@/components/Hero.vue'
-import HomeCards from '@/components/HomeCards.vue'
-import JobListings from '@/components/JobListings.vue'
+import { RouterView } from 'vue-router';
 </script>
 
 <template>
-  <!-- Navigation bar at the top of the page -->
   <Navbar />
+  <RouterView />
 
-  <!-- Hero section with main headline -->
-  <Hero />
-
-  <!-- Featured cards section -->
-  <HomeCards />
-
-  <!-- Job listings preview: show 3 items with action buttons -->
-  <JobListings :limit="3" :showButtons="true" />
 </template>
