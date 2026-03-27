@@ -85,10 +85,15 @@ After that, the app will be available at the Vite URL (usually `http://localhost
 - This project is intended for local use as an educational example with a file-based database.
 
 ## Views
+#### Main page
 <img width="1426" height="910" alt="image" src="https://github.com/user-attachments/assets/63b00ad6-9735-41e5-9fa5-d37d9996f0ca" />
+#### Browse Products
 <img width="1416" height="910" alt="image" src="https://github.com/user-attachments/assets/0774b6bb-cc8f-48b3-9af0-bc29e7a2589f" />
+#### View Product
 <img width="1480" height="908" alt="image" src="https://github.com/user-attachments/assets/f12f88f0-d74e-4029-a7a2-f647ff9c0814" />
+#### Edit product
 <img width="1301" height="911" alt="image" src="https://github.com/user-attachments/assets/3217ea38-e309-4784-a342-5f3c600f8f11" />
+#### Add Product
 <img width="1367" height="910" alt="image" src="https://github.com/user-attachments/assets/84f8dbfc-98e1-44a4-b3b9-c084da096e34" />
 
 
