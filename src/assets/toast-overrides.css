@@ -1,0 +1,11 @@
+.Vue-Toastification__toast--success {
+    background-color: #4f46e5 !important;
+}
+
+.Vue-Toastification__progress-bar--success {
+    background-color: #c7d2fe !important;
+}
+
+.Vue-Toastification__toast--success .Vue-Toastification__icon {
+    color: #e0e7ff !important;
+}
