@@ -8,27 +8,27 @@
       <div class="container-xl lg:container m-auto">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg">
           <Card>
-            <h2 class="text-2xl font-bold">For Developers</h2>
+            <h2 class="text-2xl font-bold">For Shoppers</h2>
             <p class="mt-2 mb-4">
-              Browse our Vue jobs and start your career today
+              Explore all products and check detailed info for each item
             </p>
             <RouterLink
-              to="/jobs"
+              to="/products"
               class="inline-block bg-black text-white rounded-lg px-4 py-2 hover:bg-gray-700"
             >
-              Browse Jobs
+              Browse Products
             </RouterLink>
           </Card>
-          <Card bg="bg-green-100">
-            <h2 class="text-2xl font-bold">For Employers</h2>
+          <Card bg="bg-indigo-100">
+            <h2 class="text-2xl font-bold">For Contributors</h2>
             <p class="mt-2 mb-4">
-              List your job to find the perfect developer for the role
+              Add a new demo product record for testing forms and routing
             </p>
             <RouterLink
-              to="/jobs/add"
-              class="inline-block bg-green-500 text-white rounded-lg px-4 py-2 hover:bg-green-600"
+              to="/products/add"
+              class="inline-block bg-indigo-500 text-white rounded-lg px-4 py-2 hover:bg-indigo-600"
             >
-              Add Job
+              Add Product
             </RouterLink>
           </Card>
         </div>
