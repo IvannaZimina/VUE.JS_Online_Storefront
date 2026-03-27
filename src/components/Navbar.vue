@@ -9,7 +9,7 @@ const isActiveLinnk = (path) => {
 </script>
 
 <template>
-    <nav class="bg-green-700 border-b border-green-500">
+    <nav class="bg-indigo-700 border-b border-indigo-500">
       <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div class="flex h-20 items-center justify-between">
           <div
@@ -17,25 +17,29 @@ const isActiveLinnk = (path) => {
           >
             <!-- Logo -->
             <RouterLink class="flex flex-shrink-0 items-center mr-4" to="/">
-              <img class="h-10 w-auto" v-bind:src="logo" alt="Vue Jobs" />
+              <img
+                class="h-10 w-10 object-cover object-center rounded-full"
+                v-bind:src="logo"
+                alt="Online Storefront"
+              />
               <span class="hidden md:block text-white text-2xl font-bold ml-2"
-                >Vue Jobs</span
+                >Online Storefront</span
               >
             </RouterLink>
             <div class="md:ml-auto">
               <div class="flex space-x-2">
                 <RouterLink
                   to="/"
-                  :class="['text-white', 'px-3', 'py-2', 'rounded-md', isActiveLinnk('/') ? 'bg-green-900' : 'hover:bg-gray-900 hover:text-white']"
+                  :class="['text-white', 'px-3', 'py-2', 'rounded-md', isActiveLinnk('/') ? 'bg-indigo-900' : 'hover:bg-gray-900 hover:text-white']"
                   >Home</RouterLink>
                 <RouterLink
-                  to="/jobs"
-                  :class="['text-white', 'px-3', 'py-2', 'rounded-md', isActiveLinnk('/jobs') ? 'bg-green-900' : 'hover:bg-gray-900 hover:text-white']"
-                  >Jobs</RouterLink>
+                  to="/products"
+                  :class="['text-white', 'px-3', 'py-2', 'rounded-md', isActiveLinnk('/products') ? 'bg-indigo-900' : 'hover:bg-gray-900 hover:text-white']"
+                  >Products</RouterLink>
                 <RouterLink
-                  to="/jobs/add"
-                  :class="['text-white', 'px-3', 'py-2', 'rounded-md', isActiveLinnk('/jobs/add') ? 'bg-green-900' : 'hover:bg-gray-900 hover:text-white']"
-                  >Add Job</RouterLink>
+                  to="/products/add"
+                  :class="['text-white', 'px-3', 'py-2', 'rounded-md', isActiveLinnk('/products/add') ? 'bg-indigo-900' : 'hover:bg-gray-900 hover:text-white']"
+                  >Add Product</RouterLink>
               </div>
             </div>
           </div>
